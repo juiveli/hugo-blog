@@ -1,0 +1,4 @@
+baseURL = "https://blog.juiveli.fi/"
+languageCode = "fi-fi"
+title = "Blog"
+theme = 'my-theme'

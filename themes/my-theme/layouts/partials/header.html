@@ -1,0 +1,15 @@
+<div style=height:80px>
+    <h1>{{ .Title }}</h1>
+    <nav>
+      <ul class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        {{ if and .Section (not .IsSection) (not .IsHome) }} 
+          <li><a href="/{{ .Section }}">{{ .Section | humanize }}</a></li>
+        {{ end }}
+        {{ if and (not .IsHome)  }}
+          <li>{{ .Title }}</li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+  

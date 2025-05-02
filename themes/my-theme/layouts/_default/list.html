@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range .Pages.ByDate }}
+
+
+    <h2>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> 
+      <span>Published: {{ .Date.Format "2006 Jan 02" }} / Happened: {{ .Params.eventdate | time.Format "2006 Jan 02" }} </span> <span class="description">{{ .Description }}</span>
+    </h2>
+  {{ end }}
+{{ end }}
