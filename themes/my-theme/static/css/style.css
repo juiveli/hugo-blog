@@ -84,11 +84,6 @@ h1 {
   
   h1 {
     color: var(--text-bright);
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: auto; /* Adjust width as needed */
-    text-align: center; /* Keep content centered */
     }
       
   h2 {
@@ -127,14 +122,16 @@ h1 {
       font-style: italic; /* Optional styling */
   }
 
+
   footer {
-    position: absolute;
-    bottom: 10px; /* Adjust the spacing from the bottom */
-    left: 50%;
-    transform: translateX(-50%);
-    width: auto; /* Adjust width as needed */
-    text-align: center; /* Keep content centered */
-}
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-alt);
+    padding: 10px;
+    height: 80px;
+  }
 
 
 div {
@@ -151,6 +148,8 @@ header {
   z-index: 1000;
 
 }
+
+
 body {
   padding-top: 80px;
 }
@@ -159,4 +158,12 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+main {
+  padding-bottom: 80px;
+}
+
+img {
+  width: 50%;
 }

@@ -1,0 +1,69 @@
+/srv # [6nlsd[J^C
+
+/srv # [6n^C
+
+/srv # [6n^C
+
+/srv # [6ndd^C
+
+/srv # [6nsetting up /etc...
+setting up /etc...
+setting up /etc...
+caddy
+setting up /etc...
+setting up /etc...
+setting up /etc...
+setting up /etc...
+× hugo-update.service - Rebuild Hugo site
+     Loaded: loaded (/home/joonas/.config/systemd/user/hugo-update.service; enabled; preset: ignored)
+     Active: failed (Result: start-limit-hit) since Sat 2025-05-03 00:16:19 EEST; 10s ago
+   Duration: 75ms
+ Invocation: 08433fdfd0bd4b0b98e2b81e3b1a2328
+TriggeredBy: ● hugo-update.timer
+    Process: 59472 ExecStart=/bin/sh -c cd /nix/store/f100dkzky7xqz49p006rbhz856r6pvli-source && hugo -d /var/lib/containers/caddy/srv/hugo --noBuildLock (code=exited, status=0/SUCCESS)
+   Main PID: 59472 (code=exited, status=0/SUCCESS)
+
+touko 03 00:16:19 main-pc systemd[1789]: hugo-update.service: Scheduled restart job, restart counter is at 5.
+touko 03 00:16:19 main-pc systemd[1789]: hugo-update.service: Start request repeated too quickly.
+touko 03 00:16:19 main-pc systemd[1789]: hugo-update.service: Failed with result 'start-limit-hit'.
+touko 03 00:16:19 main-pc systemd[1789]: Failed to start Rebuild Hugo site.
+× hugo-update.service - Rebuild Hugo site
+     Loaded: loaded (/home/joonas/.config/systemd/user/hugo-update.service; enabled; preset: ignored)
+     Active: failed (Result: start-limit-hit) since Sat 2025-05-03 00:16:19 EEST; 13s ago
+   Duration: 75ms
+ Invocation: 08433fdfd0bd4b0b98e2b81e3b1a2328
+TriggeredBy: ● hugo-update.timer
+    Process: 59472 ExecStart=/bin/sh -c cd /nix/store/f100dkzky7xqz49p006rbhz856r6pvli-source && hugo -d /var/lib/containers/caddy/srv/hugo --noBuildLock (code=exited, status=0/SUCCESS)
+   Main PID: 59472 (code=exited, status=0/SUCCESS)
+
+touko 03 00:16:19 main-pc systemd[1789]: hugo-update.service: Scheduled restart job, restart counter is at 5.
+touko 03 00:16:19 main-pc systemd[1789]: hugo-update.service: Start request repeated too quickly.
+touko 03 00:16:19 main-pc systemd[1789]: hugo-update.service: Failed with result 'start-limit-hit'.
+touko 03 00:16:19 main-pc systemd[1789]: Failed to start Rebuild Hugo site.
+× hugo-update.service - Rebuild Hugo site
+     Loaded: loaded (/home/joonas/.config/systemd/user/hugo-update.service; enabled; preset: ignored)
+     Active: failed (Result: start-limit-hit) since Sat 2025-05-03 00:16:19 EEST; 22s ago
+   Duration: 75ms
+ Invocation: 08433fdfd0bd4b0b98e2b81e3b1a2328
+TriggeredBy: ● hugo-update.timer
+    Process: 59472 ExecStart=/bin/sh -c cd /nix/store/f100dkzky7xqz49p006rbhz856r6pvli-source && hugo -d /var/lib/containers/caddy/srv/hugo --noBuildLock (code=exited, status=0/SUCCESS)
+   Main PID: 59472 (code=exited, status=0/SUCCESS)
+
+touko 03 00:16:19 main-pc systemd[1789]: hugo-update.service: Scheduled restart job, restart counter is at 5.
+touko 03 00:16:19 main-pc systemd[1789]: hugo-update.service: Start request repeated too quickly.
+touko 03 00:16:19 main-pc systemd[1789]: hugo-update.service: Failed with result 'start-limit-hit'.
+touko 03 00:16:19 main-pc systemd[1789]: Failed to start Rebuild Hugo site.
+× hugo-update.service - Rebuild Hugo site
+     Loaded: loaded (/home/joonas/.config/systemd/user/hugo-update.service; enabled; preset: ignored)
+     Active: failed (Result: start-limit-hit) since Sat 2025-05-03 00:17:02 EEST; 1s ago
+   Duration: 103ms
+ Invocation: b302157a2b0b4cacb3ab0b99a1265213
+TriggeredBy: ● hugo-update.timer
+    Process: 59867 ExecStart=/bin/sh -c cd /nix/store/f100dkzky7xqz49p006rbhz856r6pvli-source && hugo -d /var/lib/containers/caddy/srv/hugo --noBuildLock (code=exited, status=0/SUCCESS)
+   Main PID: 59867 (code=exited, status=0/SUCCESS)
+
+touko 03 00:17:02 main-pc systemd[1789]: hugo-update.service: Scheduled restart job, restart counter is at 5.
+touko 03 00:17:02 main-pc systemd[1789]: hugo-update.service: Start request repeated too quickly.
+touko 03 00:17:02 main-pc systemd[1789]: hugo-update.service: Failed with result 'start-limit-hit'.
+touko 03 00:17:02 main-pc systemd[1789]: Failed to start Rebuild Hugo site.
+[H[2J[3J

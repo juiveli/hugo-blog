@@ -6,7 +6,7 @@
   {{ partial "head.html" . }}
 </head>
 <body>
-  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
   <header>
     {{ partial "header.html" . }}
   </header>

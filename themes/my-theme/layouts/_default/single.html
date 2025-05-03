@@ -1,6 +1,6 @@
 {{ define "main" }}
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  {{ $dateMachine := .Params.eventdate | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Params.eventdate | time.Format ":date_long" }}
   <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
   
   <h2>{{.Description}}</h2>
