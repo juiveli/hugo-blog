@@ -1,0 +1,10 @@
+img {
+    width: 50%;
+  }
+
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
