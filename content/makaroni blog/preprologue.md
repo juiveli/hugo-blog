@@ -2,7 +2,7 @@
 date = '2025-05-02T19:15:08+03:00'
 eventdate = "2024-02-02"
 draft = false
-title = 'Prepologue'
+title = 'Preprologue'
 description = 'How it all began'
 +++
 
